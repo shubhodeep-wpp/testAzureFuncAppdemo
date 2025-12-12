@@ -20,6 +20,6 @@ def gitHubtest(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "This HTTP triggered function executed successfully. David and Shubho tested the CICD",
+             "This HTTP triggered function executed successfully. David and Shubho tested the CICD pipeline",
              status_code=200
         )
